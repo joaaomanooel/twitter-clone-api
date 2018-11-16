@@ -15,9 +15,11 @@
   "author": "João Manoel Neto <joaaomanooel@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "mongoose": "^5.3.12",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "socket.io": "^2.1.1"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
