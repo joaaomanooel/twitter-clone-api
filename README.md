@@ -39,14 +39,14 @@ $  npm run dev
  ### **Tweet:**
 
 **URL**
->`https://localhost:3000/api/v1/tweet/`
+> *localhost:3000/api/v1/tweet/*
 
 **Http Methods**
 * Get All
 
     |  Methods  |  Params  |
     |:---------:|:--------:|
-    |   `GET`   |   `null` |
+    |    GET    |    null  |
 
 ***Rsponse example:***
 
@@ -67,15 +67,15 @@ $  npm run dev
 
     |  Methods  |  Params  |
     |:---------:|:--------:|
-    |  `POST`   |   `null` |
+    |   POST    |    null  |
 
 
 ***Expected body request:***
 ```json
 [
   {
-    "author": "",   //String
-    "content": "",  //String
+    "author": "Example author",
+    "content": "Example tweet",
   }
 ]
 ```
@@ -83,16 +83,16 @@ $  npm run dev
 ### **Likes:**
 
 **URL**
->`https://localhost:3000/api/v1/likes/:id`
+> *localhost:3000/api/v1/likes/:id*
 
 * Like a tweet
 
     |  Methods  |       Params        |
     |:---------:|:-------------------:|
-    |  `PUT`    |`Tweet ID (objectId)`|
+    |  PUT      | Tweet ID (objectId) |
 
 **Example request:**
-> `https://localhost:3000/api/v1/likes/5bef3df10010962795f0d54a`
+> *localhost:3000/api/v1/likes/5bef3df10010962795f0d54a*
 
 ***Rsponse example:***
 ```json
