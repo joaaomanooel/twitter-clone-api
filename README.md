@@ -46,7 +46,7 @@ $  npm run dev
 
     |  Methods  |  Params  |
     |:---------:|:--------:|
-    |    GET    |    null  |
+    |    GET    |    NULL  |
 
 ***Rsponse example:***
 
@@ -67,7 +67,7 @@ $  npm run dev
 
     |  Methods  |  Params  |
     |:---------:|:--------:|
-    |   POST    |    null  |
+    |   POST    |    NULL  |
 
 
 ***Expected body request:***
