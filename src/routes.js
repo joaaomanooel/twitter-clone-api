@@ -9,6 +9,6 @@ routes.post('/tweets', TweetController.store);
 
 routes.put('/likes/:id', LikeController.store);
 
-routes.get('/', (req, res) => res.send('Wellcome to Tweeter API'));
+routes.get('/', (req, res) => res.send('Wellcome to Twitter API'));
 
 module.exports = routes;

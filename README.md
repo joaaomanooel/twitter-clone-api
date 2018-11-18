@@ -1,4 +1,4 @@
-# Tweeter API :bird:
+# Twitter API :bird:
 
 ## **How to use**
 ### Cloning and runing
@@ -6,12 +6,12 @@
 * Cloning git repository and entry in repository
 
 ```sh
-$  git clone https://github.com/joaaomanooel/tweeter-clone-api.git
+$  git clone https://github.com/joaaomanooel/twitter-clone-api.git
 ```
 after
 
 ```sh
-$  cd tweeter-clone-api
+$  cd twitter-clone-api
 ```
 
 * Install Dependencies
@@ -112,7 +112,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/joaaomanooel/tweeter-clone-api/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/joaaomanooel/twitter-clone-api/tags).
 
 ## Authors
 
@@ -120,7 +120,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 |:---------------------:|
 |  [João Manoel Neto](https://github.com/joaaomanooel/)   |
 
-See also the list of [contributors](https://github.com/joaaomanooel/tweeter-clone-api/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/joaaomanooel/twitter-clone-api/contributors) who participated in this project.
 
 ## License
 
