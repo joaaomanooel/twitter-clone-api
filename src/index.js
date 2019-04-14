@@ -12,12 +12,7 @@ const server = Server(app);
 const io = socket(server);
 
 app.use(morgan('dev'));
-mongoose.connect(
-  'mongodb://goweek:goweek123@ds035617.mlab.com:35617/goweek-twitter',
-  {
-    useNewUrlParser: true,
-  },
-);
+mongoose.connect(process.env.URL_DB, { useNewUrlParser: true});
 
 app.use((req, res, next) => {
   req.io = io;
